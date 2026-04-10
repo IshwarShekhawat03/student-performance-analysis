@@ -1,0 +1,31 @@
+# EasyPay ATM System
+
+A secure ATM simulation system built using Python and Streamlit.
+
+## Features
+- OTP-based login system
+- SMS alerts using Twilio API
+- Deposit, Withdraw, Transfer Money
+- Transaction history tracking
+- Admin dashboard with analytics
+- Session timeout for security
+
+## Technologies Used
+- Python
+- Streamlit
+- SQLite
+- Twilio API
+- Pandas
+
+## Security Features
+- OTP Authentication
+- Hashed admin credentials
+- Auto session logout
+- Transaction logging
+
+## How to Run
+1. Install dependencies:
+   pip install streamlit pandas twilio
+
+2. Run the app:
+   streamlit run app.py
